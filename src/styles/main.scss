@@ -1,6 +1,14 @@
 @use 'hero';
+@use 'components/info-bar';
+@use 'components/buttons';
+@use 'event';
+@use 'variaveis';
 
-*{
+li{
+    list-style: none;
+}
+
+*{  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,9 +16,7 @@
     color: white;
 }
 
-body{
-    background-color: green;
-}
+
 
 .container{
     max-width: 960px;

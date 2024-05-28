@@ -9,6 +9,10 @@ position: relative;
     position: relative;
 }
 
+#contador{
+    display: block;
+}
+
 &::before{
     content: '';
     position: absolute;

@@ -2,8 +2,8 @@
   "name": "ebac-landing-page",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "build": "parcel build src/main.html",
     "dev": "parcel src/main.html src/styles/main.scss src/scripts/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
